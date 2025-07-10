@@ -35,11 +35,11 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002681758188'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002557378186'))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sunil664023:eieqy2jRVIbzD29r@cluster0.ezot5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://singaporeserver637767:WWHPP40bajqtMI4I@cluster0.3vzen.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+FILES_DATABASE = environ.get('FILES_DATABASE', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jisshu')
 
 # Other Channel's
