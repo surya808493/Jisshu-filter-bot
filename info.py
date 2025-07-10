@@ -98,7 +98,7 @@ LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
 LINK_MODE = is_enabled('LINK_MODE', True)
-TMDB_API_KEY = environ.get("TMDB_API_KEY", "8d848a4e0a545e736 06054c99d7eff98")
+TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download 
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
